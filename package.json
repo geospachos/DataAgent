@@ -1,5 +1,5 @@
 {
-  "name": "my-ai-agent",
+  "name": "DataAgent",
   "version": "1.0.0",
   "main": "main.js",
   "type": "module",
