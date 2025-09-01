@@ -60,10 +60,10 @@ You can change the string "Read the file using the readFile tool and make a TLDR
 
 * To fetch data from the API and have it explained:
 
-        const result = await run(agent2, "Use the getData tool to fetch data and explain it to me.");
+        const result = await run(DataFetchingAgent, "Use the getData tool to fetch data and explain it to me.");
 * To read the file and get a simple confirmation:
 
-        const result = await run(agent2, "Read the file using the readFile tool and make a TLDR with it.");
+        const result = await run(DataFetchingAgent, "Read the file using the readFile tool and make a TLDR with it.");
 
 Modifying Agent Capabilities
 
