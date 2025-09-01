@@ -12,6 +12,7 @@
   "description": "",
   "dependencies": {
     "@openai/agents": "^0.0.17",
+    "openai": "^5.16.0",
     "zod": "^3.25.76"
   }
 }
