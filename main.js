@@ -14,7 +14,7 @@ const getData = new tool({
   execute: async ({}) => {
     try {
       const response = await fetch(
-        "https://jsonplaceholder.typicode.com/todos/1" // Replace with your own url (Thanks JSONPlaceholder!)
+        "https://jsonplaceholder.typicode.com/todos/1" // Replace with your own url
       ); 
       const result = await response.json();
       return result;
