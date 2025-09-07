@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 
 const getData = new tool({
   name: "Data Fetching Tool",
-  description: "Use this tool to get data from an API",
+  description: "Use this tool to get data from an Endpoint, like an API or a Backend. This can be anything that returns a JSON file.",
   parameters: z.object({}),
   execute: async ({}) => {
     try {
