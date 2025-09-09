@@ -9,7 +9,7 @@
 
    * DataFetchingAgent: This agent is responsible for data retrieval. It can either fetch data from a public API or read a
      local text file. It then passes the retrieved data to the other agent.
-   * Summarizer: This agent receives the data from Agent2 and can provide explanations or summaries to the user.
+   * Summarizer: This agent receives the data from DataFetchingAgent and can provide explanations or summaries to the user.
 
   <h2>Features</h2>
 
